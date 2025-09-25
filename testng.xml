@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BrokenLinksSuite">
+    <test name="BrokenLinksTest">
+        <classes>
+            <class name="tests.BrokenLinksTest"/>
+        </classes>
+    </test>
+</suite>
