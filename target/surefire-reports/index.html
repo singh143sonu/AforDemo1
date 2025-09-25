@@ -5,9 +5,8 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,24 +20,24 @@
      -->
   </head>
 
-  <body>    <div class="top-banner-root">
+  <body>
+    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-BrokenLinksSuite" class="navigator-link">
+            <a href="#" class="navigator-link" panel-name="suite-BrokenLinksSuite">
               <span class="suite-name border-passed">BrokenLinksSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -49,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-BrokenLinksSuite" class="navigator-link ">
-                    <span>C:\Users\bhadaurs\OneDrive - Genesis Energy Limited\Documents\Personal\DemoProject\testng.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BrokenLinksSuite">
+                    <span>C:\Users\bhadaurs\AforDemo1\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-BrokenLinksSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-BrokenLinksSuite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-BrokenLinksSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-BrokenLinksSuite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-BrokenLinksSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-BrokenLinksSuite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-BrokenLinksSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-BrokenLinksSuite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-BrokenLinksSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BrokenLinksSuite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-BrokenLinksSuite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-BrokenLinksSuite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -102,8 +101,8 @@
                     </span>
                     <div class="method-list-content passed suite-BrokenLinksSuite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-BrokenLinksSuite" title="tests.BrokenLinksTest" class="method navigator-link" hash-for-method="checkBrokenLinks">checkBrokenLinks</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BrokenLinksSuite" title="tests.BrokenLinksTest" hash-for-method="checkBrokenLinks">checkBrokenLinks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-BrokenLinksSuite -->
@@ -136,18 +135,18 @@
         </div> <!-- panel BrokenLinksSuite -->
         <div panel-name="test-xml-BrokenLinksSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bhadaurs\OneDrive - Genesis Energy Limited\Documents\Personal\DemoProject\testng.xml</span>
+            <span class="header-content">C:\Users\bhadaurs\AforDemo1\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;BrokenLinksSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;BrokenLinksTest&quot; verbose=&quot;0&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;BrokenLinksSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;BrokenLinksTester&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.BrokenLinksTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- BrokenLinksTest --&gt;
+  &lt;/test&gt; &lt;!-- BrokenLinksTester --&gt;
 &lt;/suite&gt; &lt;!-- BrokenLinksSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +158,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">BrokenLinksTest (1 class)</span>
+                <span class="test-name">BrokenLinksTester (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,12 +188,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkBrokenLinks')
 data.setCell(0, 2, 'tests.BrokenLinksTest')
-data.setCell(0, 3, 21452);
+data.setCell(0, 3, 20222);
 window.suiteTableData['BrokenLinksSuite']= { tableData: data, tableDiv: 'times-div-BrokenLinksSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-BrokenLinksSuite">
               </div> <!-- times-div-BrokenLinksSuite -->
             </div> <!-- times-div -->
@@ -227,16 +226,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBrokenLinks</span>
-                <span class="method-start">1751 ms</span>
+                <span class="method-start">2195 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23203 ms</span>
+                <span class="method-start">22418 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
-<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
